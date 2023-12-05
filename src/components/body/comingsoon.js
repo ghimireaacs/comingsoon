@@ -10,7 +10,7 @@ export default function ComingSoon() {
     <div className="pattern-hive-scale-500 flex flex-col items-center justify-center h-screen text-white ">
       <h1 className="text-8xl mb-8">COMING SOON</h1>
       <p className="text-2xl">
-        SUBMIT your confessions at{" "}
+        <b className="text-green-600">SUBMIT</b> your confessions at{" "}
         <b className="text-red-400">submit@confessionnepal.com</b>
       </p>
       <FollowUs />
